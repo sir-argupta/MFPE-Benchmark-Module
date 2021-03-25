@@ -1,0 +1,10 @@
+version: 1.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: "arn:aws:ecs:us-east-1:690236230744:task-definition/benchmark-pod6-td:1"
+        LoadBalancerInfo:
+          ContainerName: "mfpe-module"
+          ContainerPort: "9093"
+        PlatformVersion: "LATEST"
