@@ -88,7 +88,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>audit-benchmark</finalName>
+		<finalName>Process</finalName>
 
 	</build>
 </project>
