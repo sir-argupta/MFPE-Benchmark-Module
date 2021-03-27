@@ -3,7 +3,7 @@ Resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:us-east-2:690236230744:task-definition/pod6-benchmark-td:1"
+        TaskDefinition: "arn:aws:ecs:us-east-1:768161676876:task-definition/pod-6-benchmark-td:1"
         LoadBalancerInfo:
           ContainerName: "mfpe-module"
           ContainerPort: "9093"
